@@ -4,7 +4,5 @@
 }
 
 body{
-    background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,0.7147233893557423) 0%, rgba(0,0,0,0.5858718487394958) 35%, rgba(0,0,0,0.6418942577030813) 100%);
-
+   background-color: rgba(0, 0, 0, 0.212);
 }
