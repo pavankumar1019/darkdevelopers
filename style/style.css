@@ -13,8 +13,11 @@ section
     align-items: center;
 }
 #img{
-    width: 60%;
+    width: 50%;
 opacity: 0;
+}
+.img{
+    clip-path: circle(50%);
 }
 h1{
     color:whitesmoke;
