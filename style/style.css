@@ -22,3 +22,25 @@ opacity: 0;
 h1{
     color:whitesmoke;
 }
+
+.animation--scale {
+    animation-name: scale;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale3d(1);
+    }
+    25% {
+        transform: scale3d(0.5);
+    }
+    75% {
+        transform: scale3d(1.5);
+    }
+    100% {
+        transform: scale3d(1);
+    }
+}
